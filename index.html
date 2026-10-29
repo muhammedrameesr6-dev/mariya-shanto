@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shanto Anto &amp; Mariya Davis — Wedding Invitation</title>
+  <meta name="description"
+    content="With the blessings of Almighty God, we joyfully invite you to the Holy Matrimony &amp; Wedding celebrations of Shanto Anto &amp; Mariya Davis on 18th January 2027 at St. Anthony’s Church, Chirakkal." />
+
+  <!-- Open Graph (WhatsApp, Instagram, Facebook) -->
+  <meta property="og:site_name" content="Shanto &amp; Mariya" />
+  <meta property="og:title" content="Shanto Anto &amp; Mariya Davis — Wedding Invitation" />
+  <meta property="og:description"
+    content="We joyfully invite you to our Holy Matrimony &amp; Wedding celebrations on 18th January 2027 at St. Anthony's Church, Chirakkal." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="og.jpg" />
+  <meta property="og:image:secure_url" content="og.jpg" />
+  <meta property="og:image:type" content="image/jpeg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Shanto Anto &amp; Mariya Davis Wedding Invitation — 18 January 2027" />
+  <link rel="image_src" href="og.jpg" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='40' stroke='%23d4af37' stroke-width='8' fill='none'/%3E%3Ctext x='50' y='58' font-size='26' font-family='serif' fill='%23d4af37' text-anchor='middle'%3ES%26M%3C/text%3E%3C/svg%3E" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Shanto Anto &amp; Mariya Davis — Wedding Invitation" />
+  <meta name="twitter:description" content="Wedding Invitation • 18 January 2027 • St. Anthony's Church, Chirakkal" />
+  <meta name="twitter:image" content="og.jpg" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,700&family=Cinzel:wght@500;600;700&family=Jost:wght@300;400;500;600&family=Mrs+Saint+Delafield&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Great+Vibes&family=Lato:wght@300;400;700&display=swap"
+    rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css?v=2" />
+  <link rel="stylesheet" href="css/animations.css?v=2" />
+  <link rel="stylesheet" href="css/responsive.css?v=2" />
+
+  <meta name="theme-color" content="#081a45" />
+</head>
+
+<body class="gate-active">
+
+  <!-- ===================== OPENING GATE ===================== -->
+  <div id="gate">
+    <div class="gate-image">
+      <img src="couple.jpg" alt="Shanto Anto and Mariya Davis" />
+    </div>
+    <div class="gate-fade"></div>
+    <div class="gate-vignette"></div>
+    <button type="button" id="gate-enter" class="gate-content" aria-label="Tap to open the invitation">
+      <span class="gate-corner tl"></span>
+      <span class="gate-corner tr"></span>
+      <span class="gate-corner bl"></span>
+      <span class="gate-corner br"></span>
+      <span class="gate-bismillah">God Makes All Things Beautiful in His Time</span>
+      <span class="gate-ornament">
+        <span class="gate-line"></span>
+        <span class="gate-diamond"></span>
+        <span class="gate-line"></span>
+      </span>
+      <span class="gate-label">Holy Matrimony &amp; Wedding Invitation</span>
+      <span class="gate-names">Shanto &amp; Mariya</span>
+      <span class="gate-date">18 · 01 · 2027</span>
+      <span class="gate-tap">
+        <span class="gate-tap-ring"></span>
+        <span class="gate-tap-icon"><i class="fas fa-envelope-open-text" aria-hidden="true"></i></span>
+      </span>
+      <span class="gate-tap-text">Tap to Open Invitation</span>
+    </button>
+  </div>
+
+  <!-- ===================== GRAIN OVERLAY ===================== -->
+  <div class="grain-overlay" aria-hidden="true"></div>
+
+  <!-- ===================== MUSIC TOGGLE ===================== -->
+  <button id="musicToggle" class="music-toggle" aria-label="Toggle background music">
+    <i class="fa-solid fa-music"></i>
+  </button>
+
+  <audio id="bgMusic" loop preload="none">
+    <source src="assets/music.mp3?v=2" type="audio/mpeg" />
+  </audio>
+
+  <!-- ===================== SIDE NAV DOTS ===================== -->
+  <nav class="side-nav" aria-label="Section navigation">
+    <a href="#hero"       class="side-nav__dot" data-label="Welcome"   aria-current="true"></a>
+    <a href="#countdown"  class="side-nav__dot" data-label="Countdown"></a>
+    <a href="#couple"     class="side-nav__dot" data-label="Couple"></a>
+    <a href="#gallery"    class="side-nav__dot" data-label="Gallery"></a>
+    <a href="#events"     class="side-nav__dot" data-label="Events"></a>
+    <a href="#love-story" class="side-nav__dot" data-label="Our Story"></a>
+    <a href="#rsvp"       class="side-nav__dot" data-label="RSVP"></a>
+  </nav>
+
+  <!-- ===================== HERO / REVEAL ===================== -->
+  <section id="hero" class="hero is-open">
+
+    <div class="hero__backdrop">
+      <img src="couple.jpg" alt="Shanto Anto and Mariya Davis" class="hero__bg-photo" />
+      <div class="hero__gradient"></div>
+    </div>
+
+    <!-- Solid cover — hides photo until arch opens -->
+    <div class="hero__cover" id="heroCover" aria-hidden="true"></div>
+
+    <!-- Ambient floating sparkles -->
+    <div class="hero__floaters" aria-hidden="true">
+      <span class="floater floater--1">✦</span>
+      <span class="floater floater--2">✦</span>
+      <span class="floater floater--3">✦</span>
+    </div>
+
+    <div class="hero__stage is-revealed" id="heroStage">
+
+      <!-- Revealed content -->
+      <div class="hero__reveal" id="heroReveal">
+        <p class="eyebrow reveal-item" data-reveal="1">Together With Their Families</p>
+
+        <p class="hero__names reveal-item" data-reveal="2">
+          <span class="hero__name"><b class="hero__lead-letter">S</b>HANTO <b class="hero__lead-letter">A</b>NTO</span>
+          <span class="hero__amp">&amp;</span>
+          <span class="hero__name"><b class="hero__lead-letter">M</b>ARIYA <b class="hero__lead-letter">D</b>AVIS</span>
+        </p>
+
+        <p class="script-line reveal-item" data-reveal="3">are getting married</p>
+
+        <div class="hero__date reveal-item" data-reveal="4">
+          <span>18</span><em>·</em><span>01</span><em>·</em><span>2027</span>
+        </div>
+
+        <p class="hero__venue-line reveal-item" data-reveal="5">ST. ANTHONY'S CHURCH, CHIRAKKAL</p>
+      </div>
+
+    </div><!-- /.hero__stage -->
+
+    <a href="#countdown" class="scroll-cue is-visible" id="scrollCue" aria-label="Scroll to next section">
+      <span class="scroll-cue__stem"></span>
+      <span class="scroll-cue__text">Scroll</span>
+    </a>
+
+  </section><!-- /#hero -->
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav class="nav" role="navigation" aria-label="Main navigation">
+    <div class="nav-logo shimmer-gold">S &amp; M</div>
+  </nav>
+
+  <!-- ===== COUNTDOWN ===== -->
+  <section id="countdown">
+    <div class="countdown-bg" aria-hidden="true"></div>
+    <div class="countdown-content">
+      <span class="section-eyebrow" data-aos="fade-up">The Big Day</span>
+      <h2 class="section-title" data-aos="fade-up" data-aos-delay="100">
+        Counting Down to Forever
+      </h2>
+
+      <div class="ornament-divider" data-aos="fade-in" data-aos-delay="200" style="justify-content:center;">
+        <span class="ornament-line" style="background:linear-gradient(90deg,transparent,var(--gold));"></span>
+        <span class="ornament-flower" style="color:var(--gold);">✿</span>
+        <span class="ornament-line right" style="background:linear-gradient(90deg,var(--gold),transparent);"></span>
+      </div>
+
+      <div class="countdown-grid" data-aos="fade-up" data-aos-delay="200">
+        <div class="countdown-item">
+          <div class="countdown-box">
+            <span class="countdown-number" id="cd-days">00</span>
+            <span class="countdown-label">Days</span>
+          </div>
+        </div>
+        <div class="countdown-item">
+          <div class="countdown-box">
+            <span class="countdown-number" id="cd-hours">00</span>
+            <span class="countdown-label">Hours</span>
+          </div>
+        </div>
+        <div class="countdown-item">
+          <div class="countdown-box">
+            <span class="countdown-number" id="cd-minutes">00</span>
+            <span class="countdown-label">Minutes</span>
+          </div>
+        </div>
+        <div class="countdown-item">
+          <div class="countdown-box">
+            <span class="countdown-number" id="cd-seconds">00</span>
+            <span class="countdown-label">Seconds</span>
+          </div>
+        </div>
+      </div>
+
+      <p data-aos="fade-up" data-aos-delay="400"
+        style="margin-top:40px; font-family:var(--font-serif); font-size:clamp(16px,2.5vw,20px); color:rgba(255,255,255,0.78); font-style:italic;">
+        18th January 2027 &bull; 11:05 AM &bull; St. Anthony's Church, Chirakkal
+      </p>
+    </div>
+  </section>
+
+  <!-- ===== OPENING INVITATION ===== -->
+  <section id="opening">
+    <div class="opening-bg-pattern" aria-hidden="true"></div>
+    <div class="opening-content">
+      <span class="section-eyebrow" data-aos="fade-up">The Union of Two Souls</span>
+      <h1 class="section-title" data-aos="fade-up" data-aos-delay="100">
+        Holy Matrimony &amp; Wedding Celebration
+      </h1>
+
+      <div class="ornament-divider" data-aos="fade-in" data-aos-delay="200">
+        <span class="ornament-line"></span>
+        <span class="ornament-flower">✿</span>
+        <span class="ornament-line right"></span>
+      </div>
+
+      <div class="opening-ornament-bloom" data-aos="scale-in" data-aos-delay="200" aria-hidden="true">
+        <span class="bloom-flower">✿</span>
+      </div>
+
+      <div data-aos="fade-up" data-aos-delay="100">
+        <blockquote class="opening-quote">
+          <span class="opening-quote-bible">"Therefore what God has joined together, let no one separate."</span>
+          "And over all these virtues put on love, which binds them all together in perfect unity."
+          <br /><br />
+          <em>— Colossians 3:14 &bull; Mark 10:9</em>
+        </blockquote>
+      </div>
+
+      <div class="ornament-divider" data-aos="fade-in" data-aos-delay="300">
+        <span class="ornament-line"></span>
+        <span class="ornament-flower">✿</span>
+        <span class="ornament-line right"></span>
+      </div>
+
+      <p data-aos="fade-up" data-aos-delay="200"
+        style="font-family:var(--font-sans); font-size:clamp(16px,2.5vw,20px); color:var(--text-medium); line-height:1.9; max-width:560px; margin:0 auto;">
+        With immense joy and gratitude to Almighty God, we invite you to join us in celebrating the holy union and wedding of our beloved children.
+      </p>
+    </div>
+  </section>
+
+  <!-- ===== BLESSED COUPLE — family cards ===== -->
+  <section id="couple">
+    <div class="couple-bg-pattern" aria-hidden="true"></div>
+    <div class="couple-content">
+      <span class="section-eyebrow" data-aos="fade-up">The Blessed Couple</span>
+      <h2 class="section-title" data-aos="fade-up" data-aos-delay="100">Groom &amp; Bride</h2>
+
+      <div class="ornament-divider" data-aos="fade-in" data-aos-delay="200">
+        <span class="ornament-line"></span>
+        <span class="ornament-flower">✿</span>
+        <span class="ornament-line right"></span>
+      </div>
+
+      <!-- Centred Couple Photo -->
+      <div class="couple-photo-single" data-aos="fade-up" data-aos-delay="150">
+        <div class="couple-photo-frame--single">
+          <img src="couple.jpg" alt="Shanto &amp; Mariya" />
+        </div>
+      </div>
+
+      <!-- Family cards -->
+      <div class="parents-grid" style="margin-top:0;">
+        <!-- Groom's Family -->
+        <div class="parents-card" data-aos="fade-right">
+          <p class="parents-card-title">The Groom</p>
+          <span class="parents-card-name">Shanto Anto</span>
+          <div class="parents-card-parent">
+            <strong>Son of</strong>
+            Mr. Anto<br />&amp;<br />
+            Family
+            <strong>Parish / Residence</strong>
+            Chirakkal, Thrissur
+            <div style="margin-top:16px;">
+              <a href="https://instagram.com/sh.anto_anto" target="_blank" rel="noopener noreferrer"
+                style="display:inline-flex; align-items:center; gap:8px; color:var(--gold); text-decoration:none; font-size:0.95rem; font-family:var(--font-sans); padding:6px 14px; border:1px solid rgba(212,175,55,0.4); border-radius:24px; background:rgba(0,0,0,0.15); transition:all 0.3s ease;">
+                <i class="fa-brands fa-instagram" style="font-size:1.1rem;"></i> @sh.anto_anto
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bride's Family -->
+        <div class="parents-card" data-aos="fade-left">
+          <p class="parents-card-title">The Bride</p>
+          <span class="parents-card-name">Mariya Davis</span>
+          <div class="parents-card-parent">
+            <strong>Daughter of</strong>
+            Mr. Davis<br />&amp;<br />
+            Family
+            <strong>Parish / Residence</strong>
+            Chirakkal, Thrissur
+            <div style="margin-top:16px;">
+              <a href="https://instagram.com/_mariya_davis" target="_blank" rel="noopener noreferrer"
+                style="display:inline-flex; align-items:center; gap:8px; color:var(--gold); text-decoration:none; font-size:0.95rem; font-family:var(--font-sans); padding:6px 14px; border:1px solid rgba(212,175,55,0.4); border-radius:24px; background:rgba(0,0,0,0.15); transition:all 0.3s ease;">
+                <i class="fa-brands fa-instagram" style="font-size:1.1rem;"></i> @_mariya_davis
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== PHOTO GALLERY ===== -->
+  <section id="gallery">
+    <div class="gallery-content">
+      <span class="section-eyebrow" data-aos="fade-up">Moments of Love</span>
+      <h2 class="section-title" data-aos="fade-up" data-aos-delay="100">Our Moments</h2>
+
+      <div class="ornament-divider" data-aos="fade-in" data-aos-delay="200" style="justify-content:center;">
+        <span class="ornament-line" style="background:linear-gradient(90deg,transparent,var(--gold));"></span>
+        <span class="ornament-flower" style="color:var(--gold);">✿</span>
+        <span class="ornament-line right" style="background:linear-gradient(90deg,var(--gold),transparent);"></span>
+      </div>
+
+      <div class="gallery-grid" id="galleryGrid">
+        <!-- 4 Default Visible Photos -->
+        <div class="gallery-card" data-aos="fade-up" data-gallery-index="0" data-caption="Shanto &amp; Mariya">
+          <img src="assets/gallery/gallery-6.jpg" alt="Shanto &amp; Mariya" loading="lazy" />
+        </div>
+
+        <div class="gallery-card" data-aos="fade-up" data-aos-delay="100" data-gallery-index="1" data-caption="Better Together — Shanto &amp; Mariya">
+          <img src="assets/gallery/gallery-1.jpg" alt="Better Together" loading="lazy" />
+        </div>
+
+        <div class="gallery-card" data-aos="fade-up" data-aos-delay="200" data-gallery-index="2" data-caption="Cherished Memories">
+          <img src="assets/gallery/gallery-2.jpg" alt="Shanto &amp; Mariya" loading="lazy" />
+        </div>
+
+        <div class="gallery-card" data-aos="fade-up" data-aos-delay="300" data-gallery-index="3" data-caption="Joy &amp; Laughter">
+          <img src="assets/gallery/gallery-5.jpg" alt="Shanto &amp; Mariya" loading="lazy" />
+        </div>
+
+        <!-- Hidden Photos (Revealed on 'View All') -->
+        <div class="gallery-card is-hidden" data-gallery-index="4" data-caption="Radiant Smiles">
+          <img src="assets/gallery/gallery-7.jpg" alt="Shanto &amp; Mariya" loading="lazy" />
+        </div>
+
+        <div class="gallery-card is-hidden" data-gallery-index="5" data-caption="Candid Togetherness">
+          <img src="assets/gallery/gallery-3.jpg" alt="Shanto &amp; Mariya" loading="lazy" />
+        </div>
+
+        <div class="gallery-card is-hidden" data-gallery-index="6" data-caption="In Your Eyes, I Found Home">
+          <img src="assets/gallery/gallery-8.jpg" alt="Shanto &amp; Mariya" loading="lazy" />
+        </div>
+
+        <div class="gallery-card is-hidden" data-gallery-index="7" data-caption="Sweet Moments">
+          <img src="assets/gallery/gallery-4.jpg" alt="Shanto &amp; Mariya" loading="lazy" />
+        </div>
+
+        <div class="gallery-card is-hidden" data-gallery-index="8" data-caption="Simple, Everyday Bliss">
+          <img src="assets/gallery/gallery-9.jpg" alt="Shanto &amp; Mariya" loading="lazy" />
+        </div>
+      </div>
+
+      <!-- View All Button -->
+      <div class="gallery-action" data-aos="fade-up" data-aos-delay="200">
+        <button type="button" class="view-all-btn" id="galleryViewAllBtn" aria-label="View all photos">
+          <i class="fa-solid fa-images"></i>
+          <span class="btn-text">View All Photos (9)</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EVENTS ===== -->
+  <section id="events">
+    <div class="events-content">
+      <span class="section-eyebrow" data-aos="fade-up">Mark Your Calendar</span>
+      <h2 class="section-title" data-aos="fade-up" data-aos-delay="100">Wedding Celebrations</h2>
+
+      <div class="ornament-divider" data-aos="fade-in" data-aos-delay="200">
+        <span class="ornament-line"></span>
+        <span class="ornament-flower">✿</span>
+        <span class="ornament-line right"></span>
+      </div>
+
+      <div class="events-grid">
+        <!-- Holy Matrimony -->
+        <div class="event-card" data-aos="fade-up">
+          <div class="event-icon">
+            <i class="fas fa-church" aria-hidden="true"></i>
+          </div>
+          <p class="event-type">Sacred Ceremony</p>
+          <h3 class="event-title">Holy Matrimony</h3>
+
+          <div class="event-detail">
+            <div class="event-detail-icon">
+              <i class="fas fa-calendar" aria-hidden="true"></i>
+            </div>
+            <div class="event-detail-text">
+              <span class="event-detail-label">Date</span>
+              <span class="event-detail-value">Monday, 18 January 2027</span>
+            </div>
+          </div>
+
+          <div class="event-detail">
+            <div class="event-detail-icon">
+              <i class="fas fa-clock" aria-hidden="true"></i>
+            </div>
+            <div class="event-detail-text">
+              <span class="event-detail-label">Time</span>
+              <span class="event-detail-value">11:05 AM</span>
+            </div>
+          </div>
+
+          <div class="event-detail">
+            <div class="event-detail-icon">
+              <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+            </div>
+            <div class="event-detail-text">
+              <span class="event-detail-label">Venue</span>
+              <span class="event-detail-value">St. Anthony’s Church, Chirakkal</span>
+            </div>
+          </div>
+
+          <a href="https://maps.google.com/?q=St.+Antony's+Church,+Chirakkal,+Kurumbilavu,+Thrissur" target="_blank" rel="noopener noreferrer" class="maps-btn"
+            aria-label="Open St. Anthony's Church Chirakkal in Google Maps">
+            <i class="fas fa-map" aria-hidden="true"></i>
+            Open in Google Maps
+          </a>
+        </div>
+
+        <!-- Wedding Reception -->
+        <div class="event-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="event-icon">
+            <i class="fas fa-champagne-glasses" aria-hidden="true"></i>
+          </div>
+          <p class="event-type">Wedding Celebration</p>
+          <h3 class="event-title">Wedding Reception</h3>
+
+          <div class="event-detail">
+            <div class="event-detail-icon">
+              <i class="fas fa-calendar" aria-hidden="true"></i>
+            </div>
+            <div class="event-detail-text">
+              <span class="event-detail-label">Date</span>
+              <span class="event-detail-value">Monday, 18 January 2027</span>
+            </div>
+          </div>
+
+          <div class="event-detail">
+            <div class="event-detail-icon">
+              <i class="fas fa-clock" aria-hidden="true"></i>
+            </div>
+            <div class="event-detail-text">
+              <span class="event-detail-label">Time</span>
+              <span class="event-detail-value">Following the Ceremony</span>
+            </div>
+          </div>
+
+          <div class="event-detail">
+            <div class="event-detail-icon">
+              <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+            </div>
+            <div class="event-detail-text">
+              <span class="event-detail-label">Venue</span>
+              <span class="event-detail-value">Parish Hall, Chirakkal</span>
+            </div>
+          </div>
+
+          <a href="https://maps.google.com/?q=St.+Antony's+Church,+Chirakkal,+Kurumbilavu,+Thrissur" target="_blank" rel="noopener noreferrer" class="maps-btn"
+            aria-label="Open Chirakkal Parish Hall in Google Maps">
+            <i class="fas fa-map" aria-hidden="true"></i>
+            Open in Google Maps
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== QUOTE SECTION ===== -->
+  <section id="quote-section">
+    <div class="quote-bg" aria-hidden="true"></div>
+    <div class="quote-content">
+      <span class="quote-mark" data-aos="fade-in" aria-hidden="true">"</span>
+      <p class="quote-bible" data-aos="fade-up">
+        Love is patient, love is kind. It always protects, always trusts, always hopes, always perseveres. Love never fails.
+      </p>
+      <span class="quote-source" data-aos="fade-up" data-aos-delay="200">— 1 Corinthians 13:4-8</span>
+    </div>
+  </section>
+
+  <!-- ===== LOVE STORY TIMELINE ===== -->
+  <section id="love-story">
+    <div class="love-story-content">
+      <span class="section-eyebrow" data-aos="fade-up" style="color:var(--gold-light);">Our Journey</span>
+      <h2 class="section-title" data-aos="fade-up" data-aos-delay="100">A Story Written in Faith</h2>
+
+      <div class="ornament-divider" data-aos="fade-in" data-aos-delay="200" style="justify-content:center;">
+        <span class="ornament-line" style="background:linear-gradient(90deg,transparent,var(--gold));"></span>
+        <span class="ornament-flower" style="color:var(--gold);">✿</span>
+        <span class="ornament-line right" style="background:linear-gradient(90deg,var(--gold),transparent);"></span>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-item" data-aos="fade-right">
+          <div class="timeline-text">
+            <span class="timeline-date">The Beginning</span>
+            <h3 class="timeline-title">Two Souls, One Destiny</h3>
+            <p class="timeline-desc">Guided by faith and God's perfect timing, two lives crossed paths and found their eternal home in each other.</p>
+          </div>
+          <div class="timeline-dot">
+            <i class="fas fa-heart" aria-hidden="true"></i>
+          </div>
+          <div class="timeline-empty"></div>
+        </div>
+
+        <div class="timeline-item" data-aos="fade-left">
+          <div class="timeline-empty"></div>
+          <div class="timeline-dot">
+            <i class="fas fa-ring" aria-hidden="true"></i>
+          </div>
+          <div class="timeline-text">
+            <span class="timeline-date">The Promise</span>
+            <h3 class="timeline-title">A Lifetime of Love</h3>
+            <p class="timeline-desc">With joyful hearts, shared dreams, and the loving blessings of our families, we said yes to forever.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-aos="fade-left">
+          <div class="timeline-empty"></div>
+          <div class="timeline-dot">
+            <i class="fas fa-church" aria-hidden="true"></i>
+          </div>
+          <div class="timeline-text">
+            <span class="timeline-date">18 January 2027 &bull; 11:05 AM</span>
+            <h3 class="timeline-title">Holy Matrimony &amp; Wedding</h3>
+            <p class="timeline-desc">Before God and with our beloved family and friends as witnesses, Shanto Anto and Mariya Davis unite as one.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== RSVP ===== -->
+  <section id="rsvp">
+    <div class="rsvp-bg" aria-hidden="true"></div>
+    <div class="rsvp-content">
+      <span class="section-eyebrow" data-aos="fade-up">You're Invited</span>
+      <h2 class="section-title" data-aos="fade-up" data-aos-delay="100">RSVP</h2>
+
+      <div class="ornament-divider" data-aos="fade-in" data-aos-delay="200">
+        <span class="ornament-line"></span>
+        <span class="ornament-flower">✿</span>
+        <span class="ornament-line right"></span>
+      </div>
+
+      <p data-aos="fade-up" data-aos-delay="150"
+        style="font-family:var(--font-serif); font-size:clamp(15px,2.2vw,18px); color:var(--text-medium); line-height:1.8; max-width:500px; margin:0 auto 40px;">
+        We would be honoured by your presence and prayers. Please let us know if you'll be joining us on this blessed day.
+      </p>
+
+      <form id="rsvp-form" class="rsvp-form" data-aos="fade-up" data-aos-delay="200" novalidate>
+        <div class="rsvp-field">
+          <label for="rsvp-name">Your Name <span aria-hidden="true">*</span></label>
+          <input type="text" id="rsvp-name" name="name" placeholder="Enter your full name" required autocomplete="name" />
+        </div>
+
+        <div class="rsvp-field">
+          <label for="rsvp-guests">Number of Guests</label>
+          <select id="rsvp-guests" name="guests">
+            <option value="1">Just me (1)</option>
+            <option value="2">2 guests</option>
+            <option value="3">3 guests</option>
+            <option value="4">4 guests</option>
+            <option value="5+">5 or more</option>
+          </select>
+        </div>
+
+        <div class="rsvp-field">
+          <label for="rsvp-message">Leave a Blessing / Message <span style="opacity:.6;">(optional)</span></label>
+          <textarea id="rsvp-message" name="message" rows="3"
+            placeholder="Send your congratulations & wishes…"></textarea>
+        </div>
+
+        <button type="submit" class="rsvp-btn" id="rsvp-submit">
+          <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+          <span>Send RSVP via WhatsApp</span>
+        </button>
+
+        <p class="rsvp-status" id="rsvp-status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <div class="footer-pattern" aria-hidden="true"></div>
+    <div class="footer-content">
+      <p class="footer-names" data-aos="fade-up">
+        Shanto Anto<br />&amp;<br />Mariya Davis
+      </p>
+
+      <p class="footer-date" data-aos="fade-up" data-aos-delay="200">
+        18 &middot; 01 &middot; 2027
+      </p>
+
+      <div class="footer-divider" data-aos="fade-in" data-aos-delay="300"></div>
+
+      <div data-aos="fade-up" data-aos-delay="300" style="margin-bottom:28px;">
+        <p
+          style="font-family:var(--font-serif); font-style:italic; font-size:clamp(14px,2vw,17px); color:rgba(255,255,255,0.62); line-height:1.9; max-width:480px; margin:0 auto;">
+          "May the Lord bless your marriage with endless love, peace, and grace for all the years to come."
+        </p>
+      </div>
+
+      <!-- Instagram Links -->
+      <div style="display:flex; gap:16px; justify-content:center; align-items:center; flex-wrap:wrap; margin-bottom:36px;" data-aos="fade-up" data-aos-delay="350">
+        <a href="https://instagram.com/sh.anto_anto" target="_blank" rel="noopener noreferrer"
+          style="display:inline-flex; align-items:center; gap:6px; color:var(--gold); text-decoration:none; font-size:0.95rem;">
+          <i class="fa-brands fa-instagram"></i> @sh.anto_anto
+        </a>
+        <span style="color:rgba(255,255,255,0.35);">•</span>
+        <a href="https://instagram.com/_mariya_davis" target="_blank" rel="noopener noreferrer"
+          style="display:inline-flex; align-items:center; gap:6px; color:var(--gold); text-decoration:none; font-size:0.95rem;">
+          <i class="fa-brands fa-instagram"></i> @_mariya_davis
+        </a>
+      </div>
+
+      <div style="display:flex; flex-direction:column; align-items:center; gap:24px; margin-bottom:48px;"
+        data-aos="fade-up" data-aos-delay="400">
+        <div style="display:flex; gap:24px; flex-wrap:wrap; justify-content:center;">
+          <a href="https://maps.google.com/?q=St.+Antony's+Church,+Chirakkal,+Kurumbilavu,+Thrissur" target="_blank" rel="noopener noreferrer" class="maps-btn">
+            <i class="fas fa-location-dot"></i> St. Anthony’s Church, Chirakkal
+          </a>
+        </div>
+      </div>
+
+      <p class="footer-bottom" data-aos="fade-in">
+        Made with <span style="color:var(--gold);">&#9829;</span> &amp; Blessings for Shanto &amp; Mariya's wedding
+      </p>
+    </div>
+  </footer>
+
+  <!-- ===== LIGHTBOX MODAL ===== -->
+  <div class="gallery-lightbox" id="galleryLightbox" aria-hidden="true" role="dialog" aria-label="Photo Lightbox">
+    <div class="lightbox-wrap">
+      <button type="button" class="lightbox-btn lightbox-close-btn" id="lightboxClose" aria-label="Close photo view">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <button type="button" class="lightbox-btn lightbox-prev-btn" id="lightboxPrev" aria-label="Previous photo">
+        <i class="fa-solid fa-chevron-left"></i>
+      </button>
+      <button type="button" class="lightbox-btn lightbox-next-btn" id="lightboxNext" aria-label="Next photo">
+        <i class="fa-solid fa-chevron-right"></i>
+      </button>
+      <div class="lightbox-media">
+        <img src="" alt="" class="lightbox-image" id="lightboxImg" />
+      </div>
+      <div class="lightbox-footer">
+        <span class="lightbox-counter" id="lightboxCounter">1 / 9</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== SCRIPTS ===== -->
+  <!-- GSAP for parallax -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="js/main.js?v=2"></script>
+  <script src="js/animations.js?v=2"></script>
+  <script src="js/countdown.js?v=2"></script>
+
+  <script>
+    // Gallery & Lightbox Controller (Inline to prevent any browser caching issues)
+    (function () {
+      function setupGallery() {
+        var grid = document.getElementById('galleryGrid');
+        var viewAllBtn = document.getElementById('galleryViewAllBtn');
+        var lightbox = document.getElementById('galleryLightbox');
+        var imgEl = document.getElementById('lightboxImg');
+        var countEl = document.getElementById('lightboxCounter');
+        var closeBtn = document.getElementById('lightboxClose');
+        var prevBtn = document.getElementById('lightboxPrev');
+        var nextBtn = document.getElementById('lightboxNext');
+
+        if (!grid) return;
+
+        var allCards = Array.from(grid.querySelectorAll('.gallery-card'));
+        var totalCount = allCards.length;
+        var currentIndex = 0;
+
+        // 1. Toggle View All / Show Less
+        if (viewAllBtn) {
+          viewAllBtn.onclick = function (e) {
+            e.preventDefault();
+            var isExpanded = viewAllBtn.classList.contains('is-expanded');
+            var hiddenCards = grid.querySelectorAll('.gallery-card.is-hidden, .gallery-card.is-revealed');
+
+            if (isExpanded) {
+              hiddenCards.forEach(function (card) {
+                card.classList.add('is-hidden');
+                card.classList.remove('is-revealed');
+              });
+              viewAllBtn.classList.remove('is-expanded');
+              var btnText = viewAllBtn.querySelector('.btn-text');
+              if (btnText) btnText.textContent = 'View All Photos (' + totalCount + ')';
+              var btnIcon = viewAllBtn.querySelector('i');
+              if (btnIcon) btnIcon.className = 'fa-solid fa-images';
+
+              var galleryEl = document.getElementById('gallery');
+              if (galleryEl) galleryEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            } else {
+              hiddenCards.forEach(function (card, i) {
+                card.classList.remove('is-hidden');
+                card.classList.add('is-revealed');
+                card.style.animationDelay = (i * 0.05) + 's';
+              });
+              viewAllBtn.classList.add('is-expanded');
+              var btnText = viewAllBtn.querySelector('.btn-text');
+              if (btnText) btnText.textContent = 'Show Less';
+              var btnIcon = viewAllBtn.querySelector('i');
+              if (btnIcon) btnIcon.className = 'fa-solid fa-chevron-up';
+            }
+          };
+        }
+
+        // 2. Lightbox logic
+        function showPhoto(index) {
+          if (index < 0) index = totalCount - 1;
+          if (index >= totalCount) index = 0;
+          currentIndex = index;
+
+          var card = allCards[currentIndex];
+          if (!card) return;
+          var img = card.querySelector('img');
+          var src = img ? img.getAttribute('src') : '';
+
+          if (imgEl) imgEl.src = src;
+          if (countEl) countEl.textContent = (currentIndex + 1) + ' / ' + totalCount;
+        }
+
+        function openLightbox(index) {
+          showPhoto(index);
+          if (lightbox) {
+            lightbox.classList.add('is-open');
+            lightbox.setAttribute('aria-hidden', 'false');
+          }
+          document.body.style.overflow = 'hidden';
+        }
+
+        function closeLightbox() {
+          if (lightbox) {
+            lightbox.classList.remove('is-open');
+            lightbox.setAttribute('aria-hidden', 'true');
+          }
+          document.body.style.overflow = '';
+        }
+
+        // Click any card to open lightbox
+        grid.onclick = function (e) {
+          var card = e.target.closest('.gallery-card');
+          if (!card) return;
+          var idx = allCards.indexOf(card);
+          if (idx !== -1) {
+            openLightbox(idx);
+          }
+        };
+
+        if (closeBtn) closeBtn.onclick = closeLightbox;
+        if (prevBtn) prevBtn.onclick = function (e) { e.stopPropagation(); showPhoto(currentIndex - 1); };
+        if (nextBtn) nextBtn.onclick = function (e) { e.stopPropagation(); showPhoto(currentIndex + 1); };
+
+        if (lightbox) {
+          lightbox.onclick = function (e) {
+            if (e.target === lightbox || e.target.classList.contains('lightbox-wrap') || e.target.classList.contains('lightbox-media')) {
+              closeLightbox();
+            }
+          };
+        }
+
+        document.addEventListener('keydown', function (e) {
+          if (!lightbox || !lightbox.classList.contains('is-open')) return;
+          if (e.key === 'Escape') closeLightbox();
+          if (e.key === 'ArrowLeft') showPhoto(currentIndex - 1);
+          if (e.key === 'ArrowRight') showPhoto(currentIndex + 1);
+        });
+      }
+
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', setupGallery);
+      } else {
+        setupGallery();
+      }
+    })();
+  </script>
+
+</body>
+
+</html>
